@@ -1,0 +1,28 @@
+{
+  "nav": {
+    "resume": "Resume",
+    "projects": "Projects"
+  },
+
+  "wip": "Work in progress...",
+
+  "about": {
+    "about": "About me:",
+    "text": "Bicyle messenger & Computer Science student in Paris"
+  },
+
+  "projects": {
+    "projects": "Projects",
+    "text": "WIP..." 
+  },
+
+  "resume": {
+    "title": "Resume",
+    "professional": "Professional Experience",
+    "education": "Education",
+    "coursework": "Relevant Coursework",
+    "projects": "Projects",
+    "skills": "Technical Skills",
+    "volunteer": "Volunteer Work"
+  }
+}

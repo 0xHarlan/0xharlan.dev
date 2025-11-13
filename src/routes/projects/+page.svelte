@@ -1,4 +1,9 @@
+<script>
+  import { t, lang, toggleLang } from '$lib/utils';
+</script>
+
 <h1 class="text-3xl font-bold underline">
-  Projects
+  {$t('projects.projects')}
 </h1>
-<p>Lorem Ipsum</p>
+
+<p>{$t('wip')}</p>

@@ -18,4 +18,152 @@
     @apply text-3xl font-bold underline /*padding bottom:*/ mb-7;
   }
 
+  /* Header layout */
+  .header-container {
+    @apply flex justify-between items-center;
+  }
+
+  .header-left {
+    @apply flex items-baseline gap-6;
+  }
+
+  .logo {
+    @apply text-2xl font-bold;
+  }
+
+  .nav-links {
+    @apply flex gap-4;
+  }
+
+  .nav-links a.active {
+    @apply text-slate-400;
+  }
+
+  /* Language toggle */
+  .lang-toggle {
+    @apply flex items-center gap-2 p-0 cursor-pointer;
+  }
+
+  .lang-toggle .flag {
+    @apply text-2xl transition-all duration-200;
+  }
+
+  .lang-toggle .flag.inactive {
+    filter: grayscale(100%);
+    @apply opacity-50;
+  }
+
+  /* Resume sections */
+    .resume-section {
+      @apply mb-12;
+    }
+
+    .section-heading {
+      @apply text-xl font-semibold mb-6 text-black;
+    }
+
+    .subsection-title {
+      @apply font-medium mt-4 mb-2;
+    }
+
+    /* Workplace / Experience */
+    .workplace-item {
+      @apply my-10;
+    }
+
+    .workplace-item.clickable {
+      @apply cursor-pointer;
+    }
+
+    .workplace-title {
+      @apply text-lg leading-tight mb-1 text-black;
+    }
+
+    .company-link {
+      @apply underline decoration-slate-400;
+    }
+
+    .workplace-meta {
+      @apply font-light mb-2 text-sm;
+    }
+
+    .workplace-meta .nowrap {
+      @apply whitespace-nowrap;
+    }
+
+    .workplace-meta .separator {
+      @apply px-1 text-slate-500;
+    }
+
+    .workplace-details {
+      @apply list-disc pl-7 marker:text-slate-400 space-y-1;
+    }
+
+    /* Education */
+    .education-item {
+      @apply mb-6;
+    }
+
+    .education-header {
+      @apply flex justify-between items-end mb-1;
+    }
+
+    .institution {
+      @apply text-lg text-black;
+    }
+
+    .degree {
+      @apply italic mb-2;
+    }
+
+    .dates {
+      @apply text-slate-500 text-sm;
+    }
+
+    /* Projects */
+    .project-item {
+      @apply mb-6;
+    }
+
+    .project-header {
+      @apply flex justify-between items-baseline mb-2 flex-wrap gap-2;
+    }
+
+    .project-title {
+      @apply font-medium text-black;
+    }
+
+    .project-tech {
+      @apply text-sm text-slate-600 italic;
+    }
+
+    /* Skills */
+    .skills-category {
+      @apply mb-4;
+    }
+
+    /* Volunteer */
+    .volunteer-item {
+      @apply mb-4;
+    }
+
+    /* Lists */
+    ul {
+      @apply list-disc pl-7 marker:text-slate-400;
+    }
+
+    li {
+      @apply mb-1;
+    }
+
+    /* Bold text */
+    b {
+      @apply font-medium;
+    }
+
+    /* Superscript */
+    sup {
+      @apply text-xs align-super;
+    }
+  
 }

@@ -1,0 +1,28 @@
+{
+  "nav": {
+    "resume": "Parcours",
+    "projects": "Projets"
+  },
+
+  "wip": "En travaux...",
+
+  "about": {
+    "about": "À propos de moi:",
+    "text": "Coursier à vélo et étudiant en dernière année de Master Informatique à Paris."
+  },
+
+  "projects": {
+    "projects": "Projets",
+    "text": "En cours..." 
+  },
+
+  "resume": {
+    "title": "Curriculum Vitae",
+    "professional": "Expérience Professionnelle",
+    "education": "Formation",
+    "coursework": "Matières pertinentes",
+    "projects": "Projets",
+    "skills": "Compétences Techniques",
+    "volunteer": "Bénévolat"
+  }
+}
